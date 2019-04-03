@@ -106,7 +106,7 @@ columns:
   std: 28.15721838833554
 - codebook_column_type: TimedeltaColumn
   count: 20
-  description: This is a 64 bit timedelta column.
+  description: This column is a 64 bit timedelta column.
   dtype: timedelta64[ns]
   head:
   - 221616000
