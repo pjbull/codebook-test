@@ -74,7 +74,8 @@ columns:
   std: 1.1021881022401
 - codebook_column_type: StringColumn
   count: 20
-  description: This is a freeform text column of type object.
+  description: This field is answers to questions about what financial services are
+    used.
   dtype: object
   head:
   - '6y2 2qw1w2244e16rq  '
