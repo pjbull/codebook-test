@@ -1,0 +1,154 @@
+columns:
+- category_values:
+  - description: Edited description.
+    name: a
+  - description: Edited description.
+    name: s
+  - description: Edited description.
+    name: d
+  - description: Edited description.
+    name: f
+  codebook_column_type: CategoryColumn
+  count: 20
+  description: This is a category column with multiple options.
+  dtype: category
+  head:
+  - a
+  - s
+  - a
+  - a
+  - a
+  most_frequent: s
+  n_most_frequent: 6
+  n_unique: 4
+  name: category
+- codebook_column_type: DatetimeColumn
+  count: 20
+  description: This is a 64 bit datetime column.
+  dtype: datetime64[ns]
+  head:
+  - '2032-11-25T12:53:00+00:00'
+  - '2025-09-04T22:57:00+00:00'
+  - '2014-12-27T19:27:00+00:00'
+  - '2032-03-19T15:12:00+00:00'
+  - '1994-12-30T18:30:00+00:00'
+  name: datetime
+  null_count: 0
+- codebook_column_type: NumberColumn
+  count: 20
+  description: This is a 64 bit float column.
+  dtype: float64
+  head:
+  - -0.032326894060065614
+  - 2.394611148101688
+  - 2.7551795166298807
+  - 1.2378629036885334
+  - -0.5702857519669695
+  max_: 4.579002959064713
+  mean: 1.1811453668826732
+  min_: -2.104958101319884
+  name: float
+  null_count: 0
+  percentile_25: -0.25026948954853157
+  percentile_50: 1.2678330772841218
+  percentile_75: 2.4316663837909083
+  std: 1.9760971015520745
+- codebook_column_type: NumberColumn
+  count: 16
+  description: This is a 64 bit float column containing some NaN values.
+  dtype: float64
+  head:
+  - 0.6693611616174814
+  - -0.2715157531580943
+  - -0.7158257682608431
+  - 0.3528967722389065
+  - -0.5029734808657849
+  max_: 1.803582586977449
+  mean: -0.06443814719862341
+  min_: -2.3256812292252147
+  name: float_with_nan
+  null_count: 4
+  percentile_25: -0.6284303591785549
+  percentile_50: 0.020220117912928243
+  percentile_75: 0.49123687142299455
+  std: 1.1021881022401
+- codebook_column_type: StringColumn
+  count: 20
+  description: This is a freeform text column of type object.
+  dtype: object
+  head:
+  - '6y2 2qw1w2244e16rq  '
+  - t5ee qe64253q1ytt5wq
+  - 445t5y2 rwt e63t t44
+  - reywty6ww31r errw65w
+  - t4r3wq4ttt41rr1t3 53
+  max_length: 20
+  min_length: 20
+  name: free_text
+- codebook_column_type: NumberColumn
+  count: 20
+  description: This is a 64 bit integer column.
+  dtype: int64
+  head:
+  - 5
+  - 6
+  - 20
+  - 55
+  - 75
+  max_: 93.0
+  mean: 45.25
+  min_: 4.0
+  name: int
+  null_count: 0
+  percentile_25: 17.5
+  percentile_50: 52.5
+  percentile_75: 65.5
+  std: 28.15721838833554
+- codebook_column_type: TimedeltaColumn
+  count: 20
+  description: This is a 64 bit timedelta column.
+  dtype: timedelta64[ns]
+  head:
+  - 221616000
+  - 249350400
+  - 42768000
+  - -38188800
+  - 176083200
+  max_: 843868800
+  min_: -39484800
+  name: timedelta
+  null_count: 0
+created: '2019-03-11T14:06:40.038911-07:00'
+data_file:
+  created: '2018-10-23T11:44:34.388356-07:00'
+  filepath: ../codebook/tests/assets/data/sample.csv
+  modified: '2018-07-04T01:33:50-07:00'
+  pandas_read_kwargs:
+    dtype:
+      category: category
+    index_col: 0
+    parse_dates:
+    - datetime
+  pandas_read_method: pandas.io.parsers.read_csv
+  size: 2314
+description: This is a great dataset if you are awesome. Otherwise, you may find it
+  boring.
+index:
+  count: 20
+  description: This is the index, and the type is a 64 bit integer. This tells us
+    where to look.
+  dtype: int64
+  head:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  ids_all_dates: false
+  ids_hasnans: false
+  ids_monotonic: true
+  ids_unique: true
+  name: index
+modified: '2019-03-11T14:06:40.038912-07:00'
+path: codebook.cb
+title: My Example Dataset
